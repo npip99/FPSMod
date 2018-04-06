@@ -1,0 +1,16 @@
+name: FPSMod
+main: com.helios.nickpipitone.FPSMod.Main
+version: 1.0
+commands:
+  addspawn:
+    description: Adds a spawn point
+    usage: /addspawn <x> <y> <z>
+    permission: FPSMod.addspawn
+    permission-message: You don't have permission to use this command.
+    default: op
+  listspawn:
+    description: Lists the spawn points
+    usage: /listspawn
+    permission: FPSMod.listspawn
+    permission-message: You don't have permission to use this command.
+    default: op
